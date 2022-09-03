@@ -1,8 +1,19 @@
 public class Hello {
     public static void main(String[] args) {
-        String s = "hello";
-        char c = '1';
-        int one = 1;
+        HelloWo helloWo = new Hello().new HelloWo();
+        String yourName = helloWo.yourName;
+        System.out.println(yourName);
+
+
+
+    }
+    class HelloWo{
+        String yourName = getIt();
+        String name =" lisi";
+
+        private String getIt(){
+            return name;
+        }
 
     }
 }

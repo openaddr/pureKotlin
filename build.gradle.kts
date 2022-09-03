@@ -23,6 +23,7 @@ repositories {
 }
 dependencies {
     testImplementation(kotlin("test"))
+    implementation("cn.hutool:hutool-all:5.8.5")
 }
 
 tasks.test {
