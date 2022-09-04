@@ -24,6 +24,7 @@ repositories {
 dependencies {
     testImplementation(kotlin("test"))
     implementation("cn.hutool:hutool-all:5.8.5")
+    implementation(kotlin("script-runtime"))
 }
 
 tasks.test {
