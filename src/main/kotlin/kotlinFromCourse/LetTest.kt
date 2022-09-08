@@ -13,6 +13,8 @@ fun main() {
     val hello2 = hello("张三")
     println(hello1)
     println(hello2)
+
+
 }
 
 val hello = { name: String? ->
