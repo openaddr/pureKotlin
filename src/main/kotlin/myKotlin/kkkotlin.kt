@@ -8,6 +8,6 @@ fun main() {
     val execForStr = RuntimeUtil.execForStr("ipconfig")
     println(execForStr)
 
-
+    println()
 
 }
